@@ -1,5 +1,5 @@
 import EditIcon from "../svg/EditIcon";
-// import HeadersCardProfile from "../statics/HeadersCardProfile";
+import HeadersCardProfile from "../statics/HeadersCardProfile";
 import { DetailProfileCompany } from "../../utilities/DetailCompanyList";
 
 export default function DetailCompanyForm() {
