@@ -14,9 +14,9 @@ export const DetailProfileCompany = [
       { label: "Tanggal PKP", value: "03 Maret 2021" },
     ],
     contact: [
-      { label: "E-mail", icon: <EmailIcon height={15} width={15} className="fill-[#348710] mt-[2px]" />, value: "mig@mitrasolusi.group" },
-      { label: "No. Telp", icon: <PhoneIcon height={15} width={15} className="fill-[#348710] mt-[2px]" />, value: "021-5678-1234" },
-      { label: "Situs Web", icon: <WebsiteIcon height={15} width={15} className="fill-[#348710] mt-[2px]" />, value: "mitramas.com" },
+      { label: "E-mail", icon: <EmailIcon height={15} width={15} className="fill-[#175e12] mt-[2px]" />, value: "mig@mitrasolusi.group" },
+      { label: "No. Telp", icon: <PhoneIcon height={15} width={15} className="fill-[#175e12] mt-[2px]" />, value: "021-5678-1234" },
+      { label: "Situs Web", icon: <WebsiteIcon height={15} width={15} className="fill-[#175e12] mt-[2px]" />, value: "mitramas.com" },
     ],
   },
 ];

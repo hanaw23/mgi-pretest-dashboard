@@ -26,8 +26,8 @@ export default function DetailCompanyForm() {
               <p className="text-gray-400 text-xs">{item.provides}</p>
 
               <div className="flex gap-2 justify-center mt-6">
-                <EditIcon className="fill-[#277506]" height={15} width={15} />
-                <p className="text-xs text-[#277506] font-semibold">Sunting profil</p>
+                <EditIcon className="fill-[#175e12]" height={15} width={15} />
+                <p className="text-xs text-[#175e12] font-semibold">Sunting profil</p>
               </div>
             </div>
 
@@ -37,7 +37,7 @@ export default function DetailCompanyForm() {
                   <div className="mb-4" key={i}>
                     <p className="text-xs text-gray-400 font-bold">{stat.label}</p>
                     <div className="flex justify-between mt-2">
-                      <span className="text-m font-bold text-[#277506] ">{stat.value}</span>
+                      <span className="text-m font-bold text-[#175e12] ">{stat.value}</span>
                       <input type="checkbox" value="Aktif" checked />
                     </div>
                   </div>
@@ -65,7 +65,7 @@ export default function DetailCompanyForm() {
                       <div className="flex gap-2 mt-2">
                         <div className="mt-[1px]">{cont.icon}</div>
 
-                        <span className={`font-bold text-[#277506] ${cont.value === "021-5678-1234" ? "no-underline" : "underline"}`}>{cont.value}</span>
+                        <span className={`font-bold text-[#175e12] ${cont.value === "021-5678-1234" ? "no-underline" : "underline"}`}>{cont.value}</span>
                       </div>
                     </div>
                   </div>
