@@ -28,7 +28,7 @@ export default function HeaderSection() {
           <div className="flex gap-6 mt-1">
             <div className="flex gap-3">
               <SearchIcon className="fill-gray-800 cursor-pointer" height={14} width={14} onClick={handleShowSearch} />
-              {showSearch && <input placeholder="Search" className="border border-b-[#b8d8be] -mt-2 placeholder:text-sm  outline-none" />}
+              {showSearch && <input placeholder="Search" className="border border-b-[#b8d8be] border-transparent -mt-2 placeholder:text-sm  outline-none bg-transparent" />}
             </div>
             <BellIcon className="fill-gray-800" height={14} width={14} />
           </div>
