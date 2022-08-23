@@ -7,7 +7,7 @@ import BankCard from "../../components/cards/BankCard";
 
 export default function index() {
   return (
-    <div className="bg-[#dae1d9] h-screen w-screen overflow-x-hidden text-gray-900">
+    <div className="bg-[#e2efe1] h-screen w-screen overflow-x-hidden text-gray-900">
       <div>
         <HeaderSection />
       </div>
