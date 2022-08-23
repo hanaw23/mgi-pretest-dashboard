@@ -1,14 +1,12 @@
 import { locationCompany } from "../../utilities/LocationList";
+import HeaderCard from "../statics/HeaderCard";
 
 export default function LocationCard() {
   return (
     <div className="mx-6 mt-3">
-      <div className="flex justify-between">
-        <h1 className="font-bold text-sm">Lokasi</h1>
-        <p className="text-green-700 text-xs cursor-pointer font-semibold">Lihat semua</p>
-      </div>
+      <HeaderCard title="Lokasi" action="Lihat semua" />
 
-      <div className="mt-4 mb-2">
+      <div className="mt-3 mb-2">
         <div className="grid grid-cols-3 gap-4 text-white">
           {locationCompany.map((item, i) => {
             return (

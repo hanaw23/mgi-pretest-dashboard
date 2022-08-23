@@ -16,7 +16,15 @@ export const DetailProfileCompany = [
     contact: [
       { label: "E-mail", icon: <EmailIcon height={15} width={15} className="fill-[#175e12] mt-[2px]" />, value: "mig@mitrasolusi.group" },
       { label: "No. Telp", icon: <PhoneIcon height={15} width={15} className="fill-[#175e12] mt-[2px]" />, value: "021-5678-1234" },
-      { label: "Situs Web", icon: <WebsiteIcon height={15} width={15} className="fill-[#175e12] mt-[2px]" />, value: "mitramas.com" },
+      {
+        label: "Situs Web",
+        icon: <WebsiteIcon height={15} width={15} className="fill-[#175e12] mt-[2px]" />,
+        value: (
+          <a href="http://mitramas.com/" target="_blank" className="no-underline">
+            mitramas.com
+          </a>
+        ),
+      },
     ],
   },
 ];

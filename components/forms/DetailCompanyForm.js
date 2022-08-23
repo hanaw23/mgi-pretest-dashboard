@@ -20,21 +20,21 @@ export default function DetailCompanyForm() {
 
       {DetailProfileCompany.map((item, i) => {
         return (
-          <div key={i} className="mb-16">
-            <div className="flex text-center flex-col mt-12 mx-auto">
+          <div key={i} className="mb-8">
+            <div className="flex text-center flex-col mt-8 mx-auto">
               <h1 className="font-bold text-[25px] mb-1">{item.companyName}</h1>
               <p className="text-gray-400 text-xs">{item.provides}</p>
 
-              <div className="flex gap-2 justify-center mt-6">
+              <div className="flex gap-2 justify-center mt-6 cursor-pointer">
                 <EditIcon className="fill-[#175e12]" height={15} width={15} />
                 <p className="text-xs text-[#175e12] font-semibold">Sunting profil</p>
               </div>
             </div>
 
-            <div className="mt-14 mx-6">
+            <div className="mt-10 mx-6">
               {item.status?.map((stat, i) => {
                 return (
-                  <div className="mb-4" key={i}>
+                  <div className="mb-2" key={i}>
                     <p className="text-xs text-gray-400 font-bold">{stat.label}</p>
                     <div className="flex justify-between mt-2">
                       <span className="text-m font-bold text-[#175e12] ">{stat.value}</span>
