@@ -30,7 +30,7 @@ export default function HeaderSection() {
               <SearchIcon className="fill-gray-800 cursor-pointer" height={14} width={14} onClick={handleShowSearch} />
               {showSearch && <input placeholder="Search" className="border border-b-[#b8d8be] border-transparent -mt-2 placeholder:text-sm  outline-none bg-transparent" />}
             </div>
-            <BellIcon className="fill-gray-800" height={14} width={14} />
+            <BellIcon className="fill-gray-800 cursor-pointer" height={14} width={14} />
           </div>
 
           <div className="flex gap-2">
