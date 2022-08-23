@@ -16,7 +16,7 @@ export default function HeaderSection() {
   };
 
   return (
-    <div className="w-screen bg-transparent pt-5 px-10 mb-2">
+    <div className=" bg-transparent pt-5 px-10 mb-2">
       <div className="flex justify-between">
         <div className="flex gap-3">
           <p className="text-sm text-gray-400">Perusahaan</p>
