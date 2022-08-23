@@ -5,7 +5,7 @@ import VisaIcon from "../svg/VisaIcon";
 export default function BankCard() {
   return (
     <div className="mx-6 mt-3">
-      <HeaderCard button title="Akun Bank" actionBtn="Tambah Akun Bank" classNameBtn="cursor-pointer bg-[#35942e] text-sm text-white px-2 py-1 rounded w-[200px]" />
+      <HeaderCard button title="Akun Bank" actionBtn="Tambah Akun Bank" classNameBtn="cursor-pointer bg-[#35942e] text-xs font-semibold text-white px-2 py-1 rounded w-[200px]" />
 
       <div className="flex flex-col gap-6 mt-8">
         {accounts.map((acc, i) => {
