@@ -3,12 +3,12 @@ import { firstMenuIcon, secondMenuIcon } from "../utilities/IconList";
 
 export default function MenuBar() {
   return (
-    <div className="bg-white flex flex-col fixed">
+    <div className="bg-white flex flex-col fixed h-screen">
       <div className="mt-8 mx-2">
         <h1 className="ml-1 font-semibold">Logo</h1>
       </div>
 
-      <div className="mt-16 -mr-[20px]">
+      <div className="mt-16 desktop:-mr-[20px]">
         {firstMenuIcon.map((item, i) => {
           return (
             <div
