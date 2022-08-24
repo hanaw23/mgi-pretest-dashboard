@@ -15,8 +15,6 @@ export default function index() {
         <title>Pre-Test MIG - Dashboard Page</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      {/* bg-[#e2efe1] */}
-      {/* bg-[#abdda7] */}
       <div className="bg-[#e2efe1] h-screen w-[1500px] overflow-x-hidden text-gray-900 mr-10">
         <div>
           <HeaderSection />

@@ -1,10 +1,9 @@
 import EditIcon from "../svg/EditIcon";
 import HeadersCardProfile from "../statics/HeadersCardProfile";
 import { DetailProfileCompany } from "../../utilities/DetailCompanyList";
+import SwitchToggle from "../toggles/SwitchToggle";
 
 export default function DetailCompanyForm() {
-  //   const [status, setStatus] = useState(true);
-
   return (
     <div>
       <HeadersCardProfile
@@ -36,10 +35,7 @@ export default function DetailCompanyForm() {
                 return (
                   <div className="mb-2" key={i}>
                     <p className="text-xs text-gray-400 font-bold">{stat.label}</p>
-                    <div className="flex justify-between mt-2">
-                      <span className="text-m font-bold text-[#175e12] ">{stat.value}</span>
-                      <input type="checkbox" value="Aktif" checked />
-                    </div>
+                    <SwitchToggle />
                   </div>
                 );
               })}
@@ -64,7 +60,6 @@ export default function DetailCompanyForm() {
                       <p className="text-xs text-gray-400 font-bold">{cont.label}</p>
                       <div className="flex gap-2 mt-2">
                         <div className="mt-[1px]">{cont.icon}</div>
-
                         <span className={`font-bold text-[#175e12] ${cont.value === "021-5678-1234" ? "no-underline" : "underline"}`}>{cont.value}</span>
                       </div>
                     </div>
