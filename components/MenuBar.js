@@ -13,8 +13,7 @@ export default function MenuBar() {
   return (
     <div className="bg-white flex flex-col">
       <div className="mt-8 mx-2">
-        {/* <img src="assets/logo.png" height={100} width={100} /> */}
-        <h1 className="ml-1">Logo</h1>
+        <h1 className="ml-1 font-semibold">Logo</h1>
       </div>
 
       <div className="mt-16 -mr-[20px]">
