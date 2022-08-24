@@ -3,7 +3,7 @@ import { relation } from "../../utilities/RelationList";
 
 export default function RelationCard() {
   return (
-    <div className="mx-6 mt-6">
+    <div className="mx-6 mt-6 mb-6 desktop:mb-0">
       <HeaderCard title="Relasi" action="Lihat semua" />
 
       <div className="mt-10">

@@ -11,7 +11,7 @@ export default function ActivityCard() {
         {activities.map((act, i) => {
           return (
             <div className="text-gray-700 mb-6" key={i}>
-              <p className="mb-2 w-[400px] text-sm">{act.desc}</p>
+              <p className="mb-2 desktop:w-[400px] text-sm">{act.desc}</p>
               <p className="text-xs text-gray-400">{act.time}</p>
             </div>
           );
