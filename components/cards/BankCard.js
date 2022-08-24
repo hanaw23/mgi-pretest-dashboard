@@ -21,7 +21,7 @@ export default function BankCard() {
                 </div>
 
                 <div className="mt-1">
-                  <div className="flex justify-between  desktop:w-[300px] tab:w-[300px] w-[150px] desktop:flex-row tab:flex-row flex-col">
+                  <div className="flex justify-between  desktop:w-[230px] tab:w-[230px] w-[150px] desktop:flex-row tab:flex-row flex-col">
                     <p className="text-sm font-bold">{acc.bank}</p>
                     {acc.icons?.map((icon, i) => {
                       return (

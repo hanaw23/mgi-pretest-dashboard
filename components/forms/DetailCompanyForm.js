@@ -5,11 +5,11 @@ import SwitchToggle from "../toggles/SwitchToggle";
 
 export default function DetailCompanyForm() {
   return (
-    <div>
+    <div className="tab:mr-8 desktop:mr-0">
       <HeadersCardProfile
         img1="assets/building.webp"
         desc1="building"
-        className1="h-[175px] w-[700px] border border-transparent rounded-[5px]"
+        className1="h-[175px] desktop:w-[700px] w-screen border border-transparent rounded-[5px]"
         img2="assets/mitramas-logo.jfif"
         desc2="logo"
         className2="border-2 border-[#b8d8be] rounded-[100%] z-10 -mt-[100px] mx-auto"
