@@ -19,12 +19,12 @@ export default function HeaderSection() {
     <div className=" bg-transparent pt-5 px-10 mb-2 ">
       <div className="flex justify-between desktop:flex-row tab:flex-row flex-col gap-6">
         <div className="flex gap-3">
-          <p className="text-sm text-gray-400">Perusahaan</p>
-          <ArrowIcon className="fill-gray-400 mt-[6px]" height={12} width={12} />
-          <p className="text-sm text-gray-900 font-semibold"> Mitramas Infosys Global</p>
+          <p className="desktop:text-sm tab:text-sm text-[10px] text-gray-400">Perusahaan</p>
+          <ArrowIcon className="fill-gray-400 desktop:mt-[2px] tab:mt-[2px] mt-1 tab:h-[20px] desktop:h-[20px] h-[8px] w-[8px]" height={12} width={12} />
+          <p className="desktop:text-sm tab:text-sm text-[10px] text-gray-900 font-semibold"> Mitramas Infosys Global</p>
         </div>
 
-        <div className="flex desktop:gap-12 tab:gap-12 justify-between mr-5">
+        <div className="flex desktop:gap-12 tab:gap-12 justify-between desktop:mr-5 tab:mr-10 mr-2">
           <div className="flex gap-6 mt-1">
             <div className="flex gap-3">
               <SearchIcon className="fill-gray-800 cursor-pointer" height={14} width={14} onClick={handleShowSearch} />

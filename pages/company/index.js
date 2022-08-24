@@ -10,7 +10,6 @@ import BankCard from "../../components/cards/BankCard";
 
 export default function index() {
   return (
-    // #e2efe1
     <Layout>
       <Head>
         <title>Pre-Test MIG - Dashboard Page</title>

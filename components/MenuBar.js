@@ -3,7 +3,7 @@ import { firstMenuIcon, secondMenuIcon } from "../utilities/IconList";
 
 export default function MenuBar() {
   return (
-    <div className="bg-white flex flex-col fixed h-screen">
+    <div className="bg-white flex flex-col fixed h-screen desktop:h-fit tab:h-fit">
       <div className="mt-8 mx-2">
         <h1 className="ml-1 font-semibold">Logo</h1>
       </div>
