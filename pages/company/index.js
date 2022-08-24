@@ -1,5 +1,3 @@
-import Head from "next/head";
-
 import Layout from "../../components/Layout";
 import HeaderSection from "../../components/statics/HeaderSection";
 import DetailCompanyForm from "../../components/forms/DetailCompanyForm";
@@ -11,10 +9,6 @@ import BankCard from "../../components/cards/BankCard";
 export default function index() {
   return (
     <Layout>
-      <Head>
-        <title>Pre-Test MIG - Dashboard Page</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
       <div className="bg-[#e2efe1] h-fit desktop:w-[1500px] tab:w-screen w-[380px] overflow-x-hidden text-gray-900 mr-10 ml-6">
         <div>
           <HeaderSection />
