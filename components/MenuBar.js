@@ -1,17 +1,9 @@
-import { useState } from "react";
-
 import HeaderIcon from "./svg/menubarIcons/HeaderIcon";
 import { firstMenuIcon, secondMenuIcon } from "../utilities/IconList";
 
 export default function MenuBar() {
-  const [isClick, setIsClick] = useState(false);
-
-  const handleClick = () => {
-    setIsClick(true);
-  };
-
   return (
-    <div className="bg-white flex flex-col">
+    <div className="bg-white flex flex-col fixed">
       <div className="mt-8 mx-2">
         <h1 className="ml-1 font-semibold">Logo</h1>
       </div>
@@ -28,7 +20,7 @@ export default function MenuBar() {
               {!item.link ? (
                 item.icon
               ) : (
-                <div onClick={handleClick} className="py-3">
+                <div className="py-3">
                   <a href={item.link}>{item.icon}</a>
                 </div>
               )}
