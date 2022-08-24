@@ -37,7 +37,7 @@ export default function index() {
                     <div className="h-[380px] bg-white rounded-[5px] tab:w-[455px] desktop:w-[455px] w-[300px]">
                       <BankCard />
                     </div>
-                    <div className=" desktop:h-[380px] h-fit  rounded-[5px] bg-white">
+                    <div className=" desktop:h-[380px] h-fit tab:w-[455px] desktop:w-[455px] w-[300px] rounded-[5px] bg-white">
                       <RelationCard />
                     </div>
                   </div>
