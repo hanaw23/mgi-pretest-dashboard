@@ -1,4 +1,5 @@
 import HeaderCard from "../statics/HeaderCard";
+import VisaIcon from "../svg/VisaIcon";
 import { accounts } from "../../utilities/AccountBankList";
 
 export default function BankCard() {
@@ -13,7 +14,11 @@ export default function BankCard() {
               <div></div>
 
               <div className="flex gap-6">
-                <div>{acc.card}</div>
+                <div>
+                  <div className="bg-gradient-to-r from-blue-500 to-cyan-400 desktop:h-[95px] tab:h-[95px] h-[95px] desktop:w-[150px] tab:w-[150px] w-[95px] rounded-[10px] flex justify-end">
+                    <VisaIcon className="fill-white mx-3 mt-12" height={40} width={40} />
+                  </div>
+                </div>
 
                 <div className="mt-1">
                   <div className="flex justify-between  desktop:w-[300px] tab:w-[300px] w-[150px] desktop:flex-row tab:flex-row flex-col">
